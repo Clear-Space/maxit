@@ -1,0 +1,124 @@
+@import "deadset";
+
+.homeHeader {
+    background-image: url("../images/homepage.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    // .homeNav {
+    // 	background:rgba($navbg, 0.6);
+    // }
+    h2 {
+        font-size: 3.5vw;
+        line-height: 1.2;
+        margin-top: 27vh;
+        text-transform: uppercase;
+        text-align: center;
+        @include column(8);
+        @include push(2);
+        @include pull(2);
+        color: #fff;
+    }
+    .learnMore {
+        @include column(12);
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 0;
+        padding-right: 0;
+        a {
+            background: $emph;
+            padding: 10px 23px 10px 23px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 12px;
+            font-family: $groteskMedium;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 13px;
+            border: 1px solid transparent;
+            transition: all 0.25s ease-in-out;
+            &:hover {
+                background: transparent;
+                border: 1px solid $emph;
+            }
+        }
+    }
+}
+
+.ctaBox {
+position: absolute;
+bottom:0;
+height:35vh;
+width:100%;
+
+}
+
+.boxLeft {
+    clear:right;
+    float: left;
+    left:14vw;
+    margin:0;
+    padding:0;
+    width:35vw;
+    float:left;
+    height:90px;
+
+    background-color:rgba($navbg, 0.9);
+    background-size:80px;
+    
+    background-repeat:no-repeat;
+    background-position:right;
+    background-image:url('../images/arrow.png');
+
+    a {
+        padding:0;
+        margin:0;
+        line-height:90px;
+        padding-left:35px;
+        text-decoration:none;
+        color:#fff;
+        font-family:$groteskMedium;
+        text-transform:uppercase;
+        font-size:20px;
+        display:block;
+        letter-spacing:2px;
+
+    }
+
+}
+
+.boxRight {
+    right:14vw;
+    clear:right;
+    float: left;
+    padding:0;
+    width:35vw;
+    float:left;
+    height:90px;
+    background:rgba($navbg, 0.9);
+    background-image:url('../images/bars.png');
+    background-size:80px;
+    background-repeat:no-repeat;
+    background-position:right;
+
+    a {
+        padding:0;
+        margin:0;
+        line-height:90px;
+        padding-left:35px;
+        text-decoration:none;
+        color:#fff;
+        font-family:$groteskMedium;
+        text-transform:uppercase;
+        font-size:20px;
+        display:block;
+        letter-spacing:2px;
+
+    }
+
+}
+   
+

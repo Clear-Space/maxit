@@ -1,0 +1,56 @@
+$header: #103D4D;
+$sectionheader:#103D4D;
+$emph: #EC4A50;
+$bg: #D8DCDD;
+$navbg: #004D71;
+
+$groteskBold: 'PostGrotesk-Bold';
+$groteskMedium:'PostGrotesk-Medium';
+$groteskLight:'PostGrotesk-Light';
+$groteskBook:'PostGrotesk-Book';
+$freight: "freight-text-pro";
+
+@import 'index';
+@import '_deadset';
+@import 'nav.scss';
+@import 'firm.scss';
+@import 'footer.scss';
+@import 'team.scss';
+@import 'fonts.scss';
+@import 'login.scss';
+@import 'advisory.scss';
+@import 'merchantbanking.scss';
+@import 'breakpoints.scss';
+@import 'contact.scss';
+@import 'hamburgler.scss';
+
+
+* {
+	text-rendering:optimizeLegibility;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+
+body {
+  padding:0;
+  margin:0;
+}
+
+.wrapper {
+  max-width:1080px;
+  margin:0 auto;
+}
+
+.navWrapper {
+	max-width:1150px;
+	margin:0 auto;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
+
+
+

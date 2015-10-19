@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'PostGrotesk-Bold';
+    src: url("../fonts/PostGrotesk-Bold.eot");
+    src: url("../fonts/PostGrotesk-Bold.woff") format("woff"), url("../fonts/PostGrotesk-Bold.ttf") format("truetype"), url("../fonts/PostGrotesk-Bold.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PostGrotesk-Book';
+    src: url("../fonts/PostGrotesk-Book.eot");
+    src: url("../fonts/PostGrotesk-Book.woff") format("woff"), url("../fonts/PostGrotesk-Book.ttf") format("truetype"), url("../fonts/PostGrotesk-Book.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PostGrotesk-Light';
+    src: url("../fonts/PostGrotesk-Light.eot");
+    src: url("../fonts/PostGrotesk-Light.woff") format("woff"), url("../fonts/PostGrotesk-Light.ttf") format("truetype"), url("../fonts/PostGrotesk-Light.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PostGrotesk-Medium';
+    src: url("../fonts/PostGrotesk-Medium.eot");
+    src: url("../fonts/PostGrotesk-Medium.woff") format("woff"), url("../fonts/PostGrotesk-Medium.ttf") format("truetype"), url("../fonts/PostGrotesk-Medium.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: $groteskMedium;
+    color: #707070;
+}
+
+h2 {
+    font-family: $groteskMedium;
+    color: #707070;
+}
+
+h3 {
+    font-family: $groteskMedium;
+    color: #707070;
+}
+
+p {
+    font-family: $groteskLight;
+    color: #2F2F2F;
+    letter-spacing:0
+}
+
+.teamText p {
+    font-family: $freight;
+    font-weight:400;
+}
+
+a {
+    color: #707070;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+nav a {
+    font-family: $groteskLight;
+}
+
+footer a, .learnMore {
+    font-family: $groteskLight;
+}
+
+h2.interiorHeading {
+    font-family: $freight;
+}
+
+.teamTitle {
+    font-family: $groteskBook;
+}

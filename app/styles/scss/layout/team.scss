@@ -1,0 +1,145 @@
+.teamHeader {
+	background-image:url('../images/newimages-7.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:80vh;
+	width:100%;
+
+	h1.firm {
+		text-align:center;
+		@include h2style; 
+		padding-top:20vh;
+		font-family:$groteskBold;
+	}
+
+	h2 {
+		text-align:center;
+		@include h2style;
+		color:#fff;
+		padding-top:15px; 
+		@include column(8);
+		@include push(2);
+		@include pull(2);
+		display:block;
+		float:none;
+		font-size:35px;
+	}
+}
+
+.teamMain {
+
+	.wrapper {
+		overflow:hidden;
+		background:white;
+		padding-left:50px;
+		padding-right:50px;
+		padding-bottom:100px;
+	}
+}
+
+
+
+
+.teamBox {
+
+	height:100%;
+	padding-bottom:50px;
+	width:42%;
+	background:#fff;
+	padding-top:50px;
+	float:left;
+	overflow:hidden;
+
+
+aside {
+	float:left;
+}
+
+	img {
+		float:left;
+		margin-right:50px;
+		width:100%;
+	}
+
+	.email, .information, .linkedIn {
+		float:left;
+		margin:25px 20px 10px 0;
+		clear:none;
+		height:20px;
+		width:30px;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+	}
+
+	.email {
+		background:url('../images/social1.svg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+	}
+	
+	.information {
+		background:url('../images/social2.svg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+
+	}
+
+	.linkedIn {
+		background:url('../images/social3.svg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+	}
+	
+
+
+}
+
+.teamLinks {
+	float:left;
+	clear:left;
+}
+
+.teamText {
+
+	padding-top:50px;
+	padding-bottom:75px;
+	width:50%;
+	float:left;
+	padding-left:50px;
+
+	p {
+
+	}
+
+	h2 {
+		font-size:20px;
+		text-transform:uppercase;
+		font-family:$groteskBold;
+		color:$navbg;
+		font-size:25px;
+	}
+
+	h3 {
+		font-size:18px;
+		padding-bottom:20px;
+		color:$navbg;
+		font-family:$groteskMedium;
+		text-transform:uppercase;
+		font-size:25px;
+	}
+
+	p {
+		font-family:$freight;
+		font-weight:300;
+		width:100%;
+		max-height:600px;
+		margin-right:20px;
+		font-size:20px;
+	}
+
+}

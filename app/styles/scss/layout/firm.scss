@@ -1,0 +1,108 @@
+body {
+    background-color: #D8DCDD;
+}
+
+iframe {
+    margin-top: 25px;
+}
+
+.firmHeader {
+    background-image: url("../images/newImages-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    max-height: 95vh;
+    width: 100%;
+
+    h1.firm.title {
+        font-size: 25px !important;
+        text-align: center;
+        @include h2style;
+        padding-top: 20vh;
+        font-family:$groteskBold;
+    }
+
+    h2 {
+        text-align: center;
+        @include h2style;
+        color: #fff;
+        padding-top: 15px;
+        @include column(8);
+        @include push(2);
+        @include pull(2);
+        display: block;
+        float: none;
+        font-size: 35px;
+        line-height:1.2em;
+    }
+}
+
+
+
+.testP {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 50px 20px 50px;
+    margin-top: 30px;
+    margin-bottom: 85px;
+
+    span {
+        font-family: $groteskMedium;
+        color:$navbg;
+    }
+}
+
+.firmMain {
+    margin: 0 auto;
+
+    .wrapper {
+        background: white;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+    }
+
+    h2 {
+        font-family: $freight;
+        @include h2style;
+        color: $sectionheader;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 35px;
+    }
+
+    .h3Padded {
+        padding-top: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: $sectionheader;
+        margin-left: 50px;
+    }
+
+    p {
+        font-family: $freight;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size:20px;
+    }
+
+    .imageBox {
+    	background:url('../images/mining.jpg');
+    	height:55vh;
+    	width:89%;
+    	background-position:center;
+    	background-size:cover;
+    	background-repeat:no-repeat;
+    	margin:0 auto;
+    	margin-bottom:30px;
+    }
+
+}

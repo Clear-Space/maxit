@@ -1,0 +1,65 @@
+footer {
+    background: $navbg;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-bottom: 35px;
+    .footerAddress {
+        float: left;
+        padding-left:20px;
+        border-left:1px solid white;
+        padding-top:7px;
+        padding-bottom:7px;
+        
+        ul {
+            list-style-type:none;
+            
+            li.footPrivacy  {
+                padding-left:4vw;
+            }
+
+            li.footPhone {
+                padding-left:2vw;
+            }
+            li {
+                display:inline;
+                font-size:12px;
+                padding-left:3px;
+                color:#fff;
+                font-family:$groteskMedium;
+                
+
+                a {
+
+                    font-size:12px;
+                    color:#fff;
+                    text-decoration: none;
+                    font-family:$groteskMedium;
+                    
+                }
+            }
+        }
+    }
+    .footerWrap {
+        padding-top: 35px;
+    }
+
+    .footerLogo {
+        background: url("../images/logosquare.svg");
+        height: 50px;
+        width: 50px;
+        margin-right:20px;
+        margin-left:24px;
+        background-size: cover;
+        background-position: center;
+        float: left;
+        position: relative;
+        bottom:6px;
+    }
+}
+
+.bottomNav {
+    height: 25px;
+    background: $bg;
+}
